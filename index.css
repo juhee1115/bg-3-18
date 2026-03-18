@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    /* background-image: url(images/1.jpg); */
+    /* 배경이미지의 반복 방버블 지정 */
+    /* 브라우저 화면 너비에 가득 찰때까지 가로로 반복 */
+    background-repeat: no-repeat;
+    /* 배경의 이미지 조절 */
+/* background-position<수평위치><tn수직위치> */
+background-position: left top;
+}
+li{
+    background-size: 20px;
+    background: url(/images/book.png) no-repeat left center / 20px;
+    padding-left: 50px;
+    line-height: 40px;
+}
+ul{
+    width: 200px;
+    margin-left: 30px;
+}

@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+.box1 {
+  width: 100%;
+  height: 400px;
+  background: url(images/shose1.jpg) no-repeat left bottom;
+  background-size: cover;
+
+  text-align: center;
+  color: aliceblue;
+}
+.box1 h2 {
+  padding: 50px;
+  font-size: 50px;
+}
+.box1 p {
+  padding-bottom: 50px;
+}
+.box1 a {
+  padding: 5px 20px;
+  border: none;
+  background-color: aliceblue;
+}
+/* section 2 */
+.text1 {
+  background-color: pink;
+  margin: 10px auto;
+  align-items: center;
+  width: 600px;
+  padding: 20px;
+  /* height: 100px; */
+}
+.box2 {
+  width: 100%;
+  margin: -100px auto;
+  padding: 30px;
+  /* position: absolute; */
+  top: 400px;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  margin-bottom: 30px;
+  text-align: center;
+}
+.box3 {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(4, 4, 122);
+  padding: 50px;
+}
+.list {
+  background-color: aliceblue;
+  margin: 0 auto;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+}
+.contact {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.list-1 input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.list-2 input, .list-3 input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.list-con {
+  display: flex;
+  gap: 10px;
+}
+
+.list-2, .list-3{
+      flex: 1;
+      
+      
+}
+
+
+.list-4 input {
+  width: 100%;
+  height: 40px;
+margin-bottom: 15px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 380px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
